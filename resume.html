@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>Résumé</h1>
+        <!--Current Date-->
+        <div id="showDate"></div>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="cover-letter.html" target="_blank">Cover Letter</a></li>
+                <li><a class="nav-link" href="career-goals.html" target="_blank">Career Goals</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <span><a href="#About">About Me</a></span>
+            <span><a href="#Job1">Job 1</a></span>
+            <span><a href="#Job2">Job 2</a></span>
+            <span><a href="#Table">Table</a></span>
+            <span><a href="#Contact">Contact</a></span>
+        </nav>
+    </header>
+    <main>
+        <section id="About">
+            <h2>About Me</h2>
+            <p><em>This is about me.</em></p>
+        </section>
+        <br>
+        <section id="Job1">
+            <h2>Job 1</h2>
+            <p><em>This is Job 1.</em></p>
+        </section>
+        <br>
+        <section id="Job2">
+            <h2>Job 2</h2>
+            <p><em>This is Job 2.</em></p>
+        </section>
+        <br>
+        <hr>
+        <article>
+            <h3>
+                <p><em>This is an article.</em></p>
+            </h3>
+        </article>
+        <hr>
+        <section id="Table">
+            <h2>Table</h2>
+            <caption>This is my table.</caption>
+            <br>
+            <table>
+                <!-- Row 1: Header Row -->
+                <tr>
+                  <th>Header 1</th>
+                  <th>Header 2</th>
+                  <th>Header 3</th>
+                  <th>Header 4</th>
+                </tr>
+                
+                <!-- Row 2 -->
+                <tr>
+                  <td>Row 2, Cell 1</td>
+                  <td>Row 2, Cell 2</td>
+                  <td>Row 2, Cell 3</td>
+                  <td>Row 2, Cell 4</td>
+                </tr>
+                
+                <!-- Row 3 -->
+                <tr>
+                  <td>Row 3, Cell 1</td>
+                  <td>Row 3, Cell 2</td>
+                  <td>Row 3, Cell 3</td>
+                  <td>Row 3, Cell 4</td>
+                </tr>
+
+                <!-- Row 4 -->
+                <tr>
+                    <td>Row 4, Cell 1</td>
+                    <td>Row 4, Cell 2</td>
+                    <td>Row 4, Cell 3</td>
+                    <td>Row 4, Cell 4</td>
+                  </tr>
+              </table>
+        </section>
+    </main>
+    <footer>
+        <section id="Contact">
+        <p><stong>Contact me</stong></p>
+        </section>
+    </footer>
+</body>
+<!--Javascript current date and console log-->
+<script>
+    document.getElementById("showDate").textContent = "Date: " + new Date().toDateString();
+    console.log("Hello World!")
+</script>
+</html>
